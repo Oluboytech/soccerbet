@@ -11,24 +11,9 @@
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 
-<!-- Google Tag Manager --> 
-         <noscript>
-            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TPZJB9"
-               height="0" width="0" style="display:none;visibility:hidden"></iframe>
-         </noscript>
-         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-TPZJB9');
-         </script> <!-- End Google Tag Manager -->
-         <style>#menu-top-1 li.menu-item-93307 {
-            display: block;
-            }
-            #menu-top-1 li.menu-item-126808  {
-            display: none;
-            }
-         </style>
+<?php get_template_part('fragment/side-feed'); ?>
+
+
          <div class="wrapper" id="header">
             <div class="inner-wrapper">
                <div class="two wide column"  style="padding-left:0px; z-index:3; float:left;"> <a href="http://www.freesupertips.co.uk/" class="logo"> <img src="<?php bloginfo('template_url'); ?>/images/free-football-betting-tips.png" alt="Free Football Betting Tips"> </a></div>
