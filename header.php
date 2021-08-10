@@ -1,72 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
-<meta charset="utf-8" />
-         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-         <meta charset="<?php bloginfo( 'charset' ); ?>">
-         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-         <!--<link rel="stylesheet" type="text/css" href="http://www.freesupertips.co.uk/wp-content/themes/freesupertips/ui/semantic.min.css?v=9"> -->
-         <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>"> -->
-         <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri('css/new-semanrics.css'); ?>"> -->
-         <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri('css/top-menu.cs'); ?>"> -->
-         <!-- check special offers script --><!-- This site is optimized with the Yoast SEO plugin v5.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
-         <meta name="description" content="Free Super Tips is the home of free sports betting tips. Get free bets to follow our accumulators &amp; famous £10 to £1000 challenge! Follow our free tips now!"/>
-         <link rel="canonical" href="http://www.freesupertips.co.uk" />
-         <meta property="og:locale" content="en_GB" />
-         <meta property="og:type" content="website" />
-         <meta property="og:title" content="Free Sports Betting Tips &amp; Free Bets, Football Predictions" />
-         <meta property="og:description" content="Free Super Tips is the home of free sports betting tips. Get free bets to follow our accumulators &amp; famous £10 to £1000 challenge! Follow our free tips now!" />
-         <meta property="og:url" content="http://www.freesupertips.co.uk" />
-         <meta property="og:site_name" content="Free Football Tips" />
-         <meta property="og:image" content="http://www.freesupertips.co.uk/wp-content/uploads/2015/03/free-sports-betting-tips-1.jpg" />
-         <meta name="twitter:card" content="summary" />
-         <meta name="twitter:description" content="Free Super Tips is the home of free sports betting tips. Get free bets to follow our accumulators &amp; famous £10 to £1000 challenge! Follow our free tips now!" />
-         <meta name="twitter:title" content="Free Sports Betting Tips &amp; Free Bets, Football Predictions" />
-         <meta name="twitter:site" content="@FootySuperTips" />
-         <meta name="twitter:image" content="http://www.freesupertips.co.uk/wp-content/uploads/2015/03/free-sports-betting-tips-1.jpg" />
-         <meta name="twitter:creator" content="@FootySuperTips" />
-         <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.freesupertips.co.uk\/","name":"Free Football Tips","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.freesupertips.co.uk\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script> <!-- / Yoast SEO plugin. -->
-         <link rel='dns-prefetch' href='//s.w.org' />
-         <link rel="alternate" type="application/rss+xml" title="Free Football Tips &raquo; Quick Links Comments Feed" href="http://www.freesupertips.co.uk/quick-links/feed/" />
-         <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.freesupertips.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
-            !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-         </script> 
-         <style type="text/css">img.wp-smiley,
-            img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-            }
-         </style>
-         <link rel='https://api.w.org/' href='http://www.freesupertips.co.uk/wp-json/' />
-         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.freesupertips.co.uk/xmlrpc.php?rsd" />
-         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.freesupertips.co.uk/wp-includes/wlwmanifest.xml" />
-         <meta name="generator" content="WordPress 4.8.2" />
-         <link rel='shortlink' href='http://www.freesupertips.co.uk/' />
-         <link rel="alternate" type="application/json+oembed" href="http://www.freesupertips.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.freesupertips.co.uk%2F" />
-         <link rel="alternate" type="text/xml+oembed" href="http://www.freesupertips.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.freesupertips.co.uk%2F&#038;format=xml" />
-         <style type="text/css">/* Styles here! */</style>
-         <!-- <link rel="icon" href="http://www.freesupertips.co.uk/wp-content/uploads/2015/12/cropped-Free-Super-Tips-Favicon-50x50.png" sizes="32x32" />
-            <link rel="icon" href="http://www.freesupertips.co.uk/wp-content/uploads/2015/12/cropped-Free-Super-Tips-Favicon-200x200.png" sizes="192x192" />
-            <link rel="apple-touch-icon-precomposed" href="http://www.freesupertips.co.uk/wp-content/uploads/2015/12/cropped-Free-Super-Tips-Favicon-200x200.png" />
-            <meta name="msapplication-TileImage" content="http://www.freesupertips.co.uk/wp-content/uploads/2015/12/cropped-Free-Super-Tips-Favicon-360x360.png" /> -->
-         <meta name="google-site-verification" content="dQh7lxL0Es_PLr8jSowz7BgYoHStK0RVzK6FTjA416I" />
-         <meta name="google-site-verification" content="nCcDYnKerTo3eHwzvCiUSkAvK9nC4ul7JwJaJbiNPy8" />
-         <script src="//load.sumome.com/" data-sumo-site-id="3c145e8d41082b5d9af0b295c53acbadf4ccfeb2a89b81b2dfb33d9448148add" async="async"></script> 
-         <script type="text/javascript" src="http://www.freesupertips.co.uk/wp-content/cache/autoptimize/js/autoptimize_854b5912a3d8f59c19cd2172eb106ba6.js"></script>
-         <?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
-         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-         <?php endif; ?>
-<?php wp_head(); ?>
+    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <?php wp_head(); ?> 
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
